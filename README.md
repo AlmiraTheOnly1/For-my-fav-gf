@@ -1,1 +1,121 @@
 # For-my-fav-gf
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For My Fav Girl 💖</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      color: #fff;
+      overflow: hidden;
+      background: linear-gradient(to bottom, #001f3f, #003366, #004080, #0059b3);
+    }
+
+    h1 {
+      font-size: 2em;
+      margin: 20px 0;
+      text-shadow: 0 0 10px #fff;
+    }
+
+    .msg {
+      font-size: 1.1em;
+      margin: 15px auto;
+      padding: 15px;
+      max-width: 600px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      animation: fadeInUp 1s ease forwards;
+      opacity: 0;
+      color: #e0f7fa;
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 0.9em;
+      background: rgba(0,0,0,0.3);
+      padding: 15px;
+      border-radius: 10px;
+      animation: fadeInUp 1.5s ease forwards;
+      opacity: 0;
+    }
+
+    /* Aquarium */
+    .aquarium {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      z-index: -1;
+      overflow: hidden;
+    }
+
+    .fish {
+      position: absolute;
+      animation: swim linear infinite;
+      opacity: 0.9;
+    }
+
+    .small { width: 80px; animation-duration: 25s; }
+    .big { width: 160px; animation-duration: 40s; }
+    .shark { width: 220px; animation-duration: 60s; }
+    .whale { width: 320px; animation-duration: 80s; }
+
+    @keyframes swim {
+      0% { left: -400px; transform: scaleX(1); }
+      100% { left: 120%; transform: scaleX(1); }
+    }
+
+    audio {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="aquarium">
+    <!-- Ikan kecil -->
+    <img src="https://i.ibb.co/2YqGfVZ/fish1.png" class="fish small" style="top:20%;">
+    <img src="https://i.ibb.co/2YqGfVZ/fish1.png" class="fish small" style="top:60%;">
+    <img src="https://i.ibb.co/2YqGfVZ/fish1.png" class="fish small" style="top:40%;">
+
+    <!-- Ikan gede -->
+    <img src="https://i.ibb.co/zQn7tQH/bigfish.png" class="fish big" style="top:50%;">
+
+    <!-- Hiu -->
+    <img src="https://i.ibb.co/jkq8ZNH/shark.png" class="fish shark" style="top:70%;">
+
+    <!-- Paus biru -->
+    <img src="https://i.ibb.co/5G6PjKQ/whale.png" class="fish whale" style="top:30%;">
+  </div>
+
+  <h1>HAIII AMIRAA SAYANGG 💕😍</h1>
+
+  <div class="msg" style="animation-delay:1s">1. sebenarnya to saya tida butuh yang namanya "WORLD" 🌍 bczz apa? yapp amiraa itu sudah jadi my "WORLDD" 💖</div>
+  <div class="msg" style="animation-delay:2s">2. mu tau kata "CANTIK"? ✨ nah sebenarnya kata cantik itu cuman sekadar huruf, tidak lebih. Tapi kalau diimplementasikan ke dunia, aii amira mi itu perwujudannya 😘🌹</div>
+  <div class="msg" style="animation-delay:3s">3. pernah lewat di fyp tiktok ku 🎶, nabilang kanda Albert Einstein, waktu itu bde relatif🤔. Sempat kurang yakin, tapi pas dekat ki ehh betulan twwna waktu itu relatif krna kalau di dekatku amira, waktu terasa cepatt ⏳💘</div>
+  <div class="msg" style="animation-delay:4s">4. pernah dengar amira teori Big Bang? 💥 yg awal mulanya semesta tercipta 🌌. Nahh saya juga pada setahun lalu pas awal' nya kuliat amira nahh itu saya Big Bang ku krna disitu awal mula ku jatuh cinta ke padamuu 😍❤️</div>
+  <div class="msg" style="animation-delay:5s">5. mu tau seberapa besar cintaku? 💞 nilainya itu setara (π) melampaui limited ♾️ dan tak pernah selesai dihitung hingga 5miliar tahun kedepan 🌠</div>
+
+  <footer style="animation-delay:6s">
+    SOO KESIMPULANNYA 👉 I LOVE YOUU SO MUCHHH 💕💞💘 <br>
+    Have a nice dayy everyday yaa sayangg 🌸✨ <br>
+    Kalau saya ada salah atau apapun yang membuatmu tida nyaman just say it yaa 🙏🥺<br>
+    Sorry for all my mistakes for uu 💝 <br>
+    Kalau ditanya hal paling ku takuti: <b>"idontwannaseeyouwithotherman"</b> 😢💔
+  </footer>
+
+  <!-- Musik -->
+  <audio controls autoplay loop>
+    <source src="cant-help-falling.mp3" type="audio/mpeg">
+    Browser kamu nggak support audio tag.
+  </audio>
+</body>
+</html>
